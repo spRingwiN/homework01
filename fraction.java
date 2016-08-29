@@ -5,7 +5,16 @@ public class Fraction{
 	public Fraction(int a,int b){
 	this.a=a;
 	this.b=b;
-	}
-
+ }
+	public void simple(){
+	int k=1;
+	for(int i=1;i<=a&&i<=b;i++){
+   	if(a%i==b%i){
+	k=i;	
+    }
+	this.a=this.a/k;
+	this.b=this.b/k;
+   }	
+  }
 
 }
