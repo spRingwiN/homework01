@@ -25,4 +25,18 @@ public class Fraction{
 	int k=b*r.b;
 	return new Fraction(j,k);
  }
+	public Fraction multiply(Fraction r){
+	int j=a*r.a;
+	int k=b*r.b;
+	return new Fraction(j,k);
+ }
+	public void print(){
+	this.simple();
+	if(a==b){
+	System.out.println("1");
+	 }
+	else{
+	System.out.println(a+"/"+b);
+	}
+ }
 }
