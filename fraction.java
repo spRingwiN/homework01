@@ -20,5 +20,9 @@ public class Fraction{
 	public double toDouble(){
  	return (double)(a)/b;
  }
-
+	public Fraction plus(Fraction r){
+ 	int j=a*r.b+r.a*b;
+	int k=b*r.b;
+	return new Fraction(j,k);
+ }
 }
