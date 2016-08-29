@@ -6,6 +6,8 @@ public class Fraction{
 	this.a=a;
 	this.b=b;
 	}
-
+	public double toDouble(){
+ 	return (double)(a)/b;
+ }
 
 }
