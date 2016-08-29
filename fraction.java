@@ -15,6 +15,10 @@ public class Fraction{
 	this.a=this.a/k;
 	this.b=this.b/k;
    }	
-  }
+ }
+
+	public double toDouble(){
+ 	return (double)(a)/b;
+ }
 
 }
